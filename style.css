@@ -1,0 +1,94 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(112, 148, 240);
+    height: 30vh;
+    display: flex;
+    
+}
+
+.logo{
+    text-align: center;
+    font-weight: bold;
+}
+
+.sidebar{
+    padding-left: 10%;
+}
+
+.film{
+    padding-right: 5px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px
+}
+
+.wrapper {
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+.flat {
+    color: #452eda;
+    font-size: 40px;
+  }
+  
+.dango {
+    color: #0e0101;
+    font-size: 50px;
+  }
+
+.header{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.poster{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px
+}
+
+.card{
+    content: "";
+    clear: both;
+    display: table;
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.btn {
+    border: none;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 32px;
+    font-size: 16px;
+    background-color: #2ca46c;
+    color: #fff;
+    border-radius: 25%;
+  }
+
+button{
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color:rgb(112, 148, 240);
+    color: #ca0d0d;
+    border-radius:15px;
+}
